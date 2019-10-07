@@ -1,0 +1,119 @@
+
+.content-box {
+    position: relative;
+	width:90%;
+	margin: 20px auto 20px auto;
+	background-color: #02355A;
+	border-radius:12px;
+	color:white;
+	padding:20px;
+}
+
+.read-box {
+    position: relative;
+	width:90%;
+	margin: 20px auto 20px auto;
+	background-color: #BEBDBD;
+	border-radius:12px;
+	color:white;
+	padding:20px;
+}
+
+.edit-div {
+    position: absolute;
+    right: 10px;
+}
+
+
+.delete-div {
+    position: absolute;
+    right: 10px;
+    bottom: 10px; 
+}
+
+.navbar-bell {
+    position: absolute; 
+    right: 125px;
+    top: 5px;
+    width:70px; 
+    float: right;
+}
+
+.bell-icon {
+    width:60px; 
+    float: right;
+}
+
+.notify-date {
+    position: absolute;
+    right:10px;
+    top:5px;
+}
+
+.notify-name {
+    width:50%;
+}
+
+.notify-read {
+    color: grey;
+}
+
+.notify-envelope {
+
+    float:left;
+    padding-right:10px;
+    width:50px;
+    height:50px;
+}
+
+.notify-bell2 {
+    float:left;
+    padding-right:10px;
+    width:50px;
+    height:40px;
+}
+
+.notify-num {
+  position: absolute;
+  right: 25px;
+  top: 17px;
+  color: red;
+}
+
+.profile-text {
+    width: 100%;
+    min-height:100px;
+}
+
+.book-image {
+    float:right;
+    margin-right: 60px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.requested-box {
+    background-color: #001537;
+}
+
+#termswindow {
+    position:absolute;
+    top:15%;
+    left:0px;
+    display: none;
+    background-color: #001537;
+    z-index: 999;
+}
+
+#termsbutton {
+    position:absolute;
+    right:25px;
+    bottom:10px;
+
+}
+
+#star-div {
+        position: relative;
+        top:-20px;
+    	text-align:center;
+}

@@ -1,0 +1,458 @@
+/*******************************************************************************/
+/*definition of colours*/
+:root {
+    --dark-blue:#001537;
+    --blue:#02355A;
+    --light-blue:#D9ECf0;
+    --dark-grey:#252f30;
+    --light-grey:#4e5b6b;
+}
+
+
+h1{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bolder;
+	font-size:36pt;
+}
+
+h2{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size:24pt;
+}
+
+h3{
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	font-size:18pt;
+}
+
+p label{
+	font-family: 'Roboto', sans-serif;
+	font-weight:lighter;
+	font-size: 12pt;
+}
+
+input{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+/*******************************************************************************/
+/*Nav Bar specific CSS*/
+.bg-ss{
+	background-color:var(--dark-blue);
+}
+
+
+
+.logo-center{
+	margin:auto;
+}
+
+
+
+.dropdown-item{
+	color:var(--light-blue);
+}
+
+
+.container-fluid{
+	max-width: 1100px;
+	margin:auto;
+}
+
+.page-header{
+	padding:20px 0px 20px 5%;
+}
+
+
+.content-box{
+	width:90%;
+	margin: 20px auto 20px auto;
+	background-color: var(--blue);
+	border-radius:12px;
+	color:white;
+	padding:20px;
+	
+}
+
+@media only screen and (min-width: 1000px) {
+	
+
+}
+
+
+
+
+
+/*******************************************************************************/
+/*Login specific CSS*/
+.login{
+	text-align: left;
+}
+
+
+
+.login form{
+	width:50%;
+	margin:auto;
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.login form{
+		width:90%;
+	}
+}
+
+.login form span{
+	margin-bottom:20px;
+}
+
+.login form div div input{
+	width:100%;
+}
+
+.login form div{
+	padding-bottom: 10px;
+}
+
+.login-submit{
+	text-align: center;
+	margin:auto;
+}
+
+.login-submit p{
+	margin-top:20px;
+}
+
+.error{
+	text-align:center;
+	color:red;
+}
+
+.create-p{
+	padding-top:15px;
+}
+
+
+
+
+
+
+/*******************************************************************************/
+/*Footer specific CSS*/
+
+footer{
+	background-color: var(--dark-blue);
+	padding:20px;
+	position: absolute;
+ 	bottom: 0;
+ 	width:100%;
+}
+
+.footer-text{
+	color:var(--light-blue);
+	text-align:center;
+}
+
+body{
+	position:relative;
+	min-height:100vh;
+}
+
+.container-fluid{
+	padding-bottom:130px;
+}
+
+
+
+
+
+
+
+/*******************************************************************************/
+/*Settings specific CSS*/
+.name_head{
+	display:block;
+	margin:50px;
+	text-align:center;
+}
+
+input{
+	max-width:100%;
+}
+
+.settings .form-group{
+	background-color: var(--light-grey);
+	margin:15px;
+	padding:30px;
+	border-radius: 12px;
+}
+
+.settings #address{
+	width:50%;
+	
+}
+
+.profile-img{
+	text-align:center;
+}
+
+.settings-buttons {
+	text-align:center;
+}
+
+.settings #email{
+	width:50%;
+}
+
+@media only screen and (max-width: 800px) {
+	
+	.form-group #address{
+		width:100%;
+	}
+	
+	.settings #email{
+		width:100%;
+	}
+}
+
+
+
+
+
+/*******************************************************************************/
+/*Profile specific CSS*/
+
+.bookdelete {
+	background-color:powderblue;
+}
+
+.hidden{visibility:hidden;}
+
+
+.fa-edit{
+	font-size: 30px;
+	color:var(--light-blue);
+}
+
+.fa-edit:hover{
+	transform: scale(1.1);
+	color:var(--dark-blue);
+}
+
+.fa-trash{
+	font-size:30px;
+	color:red;
+}
+
+.fa-trash:hover{
+	transform: scale(1.1);
+	color:darkred;
+}
+
+.delete-div{
+	margin-bottom:30px;
+	margin-right:7px;
+}
+
+.edit-button{
+	background:none;
+	border:none;
+	padding:0;
+}
+
+
+
+
+/*******************************************************************************/
+/*Book Search specific CSS*/
+
+#results{
+	width:50%;
+	margin:auto;
+}
+
+.mb-3{
+	width:100%;
+	margin:auto;
+	padding:10px;
+	background-color: var(--blue);
+	border-radius: 12px;
+	
+}
+
+
+.collapse-form{
+	border-top:var(--light-blue) 2px solid;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.show-more{
+	margin: 50px 40% 40px 40%;
+	width:20%;
+}
+
+#m-star-div{
+	top:-20px;
+	position:relative;
+	
+}
+
+
+
+
+
+
+/*******************************************************************************/
+/*Message specific CSS*/
+.full-height{
+	height:100%;
+	width:100%;
+}
+
+.scrollable{
+	margin-top:10px;
+	overflow: auto;
+	background-color:var(--dark-grey);
+	width:100%;
+	height:90%;
+	border-radius:12px 12px 0px 0px;
+}
+
+.message-input{
+	height:30%;
+	background-color: var(--blue);
+	overflow:auto;
+	border-radius:0px 0px 12px 12px;
+}
+
+.message-r{
+	background-color: var(--light-blue);
+	color:var(--dark-grey);
+	max-width:80%;
+	margin-right:20%;
+	margin:10px;
+	padding:10px;
+	border-radius:12px 12px 0px 12px;
+}
+
+.message-s{
+	background-color:var(--blue);
+	color:var(--light-blue);
+	max-width:80%;
+	margin:10px 10px 10px 20%;
+	border-radius:12px 12px 12px 0px;
+	padding:10px;
+}
+
+.message-name{
+	font-weight: bolder;
+}
+
+#message{
+	margin:10px;
+	width:80%;
+	height:100%;
+	resize: none;
+}
+
+#message-send{
+	margin:10px;
+	width:80%;
+	height:100%;
+	resize: none;
+}
+
+.message-div{
+	margin:auto;
+	width:100%;
+	height:100%;
+}
+
+.message-input>form{
+	height:80%;
+}
+
+@media only screen and (max-width: 600px) {
+	.message-input{
+		height:30%;
+		
+	}
+
+	.message-div{
+		height:50%;
+		text-align:center;
+	}
+	
+	#message{
+		margin:auto;
+		
+	}
+}
+
+#start_convo{
+	color:white;
+	margin:auto;
+	padding:10px;
+}
+
+.notify-div{
+	width: 1055px;
+	height: 50px;
+	position: relative;
+	
+	background-color: var(--light-grey);
+	text-align:center;
+	border-radius: 12px 0px 0px 0px;
+	
+}
+
+@media only screen and (max-width: 1000px) {
+	.notify-div{
+		width:90%;
+	}
+}
+
+
+.notify-div>span{
+	margin:auto;
+	display:inline;
+}
+
+.notify-div p{
+	display:inline;
+	margin:auto;
+	color:white;
+}
+
+.notify-div button{
+	display:inline;
+	margin:7px 0px 0px 20px;
+}
+
+.notify-msg{
+	width:200px;
+	margin:10% auto auto auto;
+	background-color: var(--dark-blue);
+	opacity:1;
+	border-radius:12px;
+	padding:10px;
+	color:white;
+}
+
+.fa-star{
+	margin-top:10px;
+}
+
+.fa-star:hover{
+	color:orange;
+}
+
+
+
